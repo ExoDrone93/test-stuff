@@ -1,0 +1,8 @@
+<!doctype html>
+<html>
+  <body style="font:16px sans-serif; padding: 8px">
+    <script>
+      document.body.innerText= 'ancestor: ' + (Array.from(location.ancestorOrigins || []).join(',') || '(empty)' + '\nreferrer: ' + (document.referrer || ('(empty)'));
+    </script>
+  </body>
+</html>
